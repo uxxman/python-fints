@@ -472,8 +472,8 @@ class ParameterPinTan(DataElementGroup):
     min_pin_length = DataElementField(type='num', max_length=2, required=False)
     max_pin_length = DataElementField(type='num', max_length=2, required=False)
     max_tan_length = DataElementField(type='num', max_length=2, required=False)
-    user_id_field_text = DataElementField(type='an', max_length=30, required=False)
-    customer_id_field_text = DataElementField(type='an', max_length=30, required=False)
+    user_id_field_text = DataElementField(type='an', max_length=35, required=False)
+    customer_id_field_text = DataElementField(type='an', max_length=35, required=False)
     transaction_tans_required = DataElementGroupField(type=TransactionTanRequired, max_count=999, required=False)
 
 
